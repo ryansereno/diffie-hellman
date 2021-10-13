@@ -1,4 +1,20 @@
-sharedPrime = 23
+integer = input("Input an integer")
+def is_prime(n):
+    for i in range(2, int(integer)):
+        if int(integer) % i == 0:
+            return False
+    else:
+        return True
+def primitve_root(prime):
+    primitveRange= range(1,prime)
+    primitiveRoots = []
+    for i in range(1,prime):
+        modulus =
+if is_prime(integer) == True:
+    sharedPrime = int(integer)
+else:
+    print("Not a prime number")
+
 sharedBase = 5
 
 user1_private = 6
