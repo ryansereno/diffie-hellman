@@ -19,6 +19,7 @@ def primitive_root(prime):
             clean_possible_roots = set(possible_roots)
             if len(clean_possible_roots) == len(range(1,prime)):
                 primitiveRoots.append(num_to_check)
+    return primitiveRoots
     print(primitiveRoots)
 if is_prime(integer) == True:
     sharedPrime = int(integer)
